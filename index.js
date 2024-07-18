@@ -74,6 +74,6 @@ $("#login-btn").click(function(event) {
    
     event.preventDefault(); 
   
-    window.location.href = "https://www.google.com";
+    window.location.href = "https://dt50bartosz.github.io/main-login/";
   
 });
