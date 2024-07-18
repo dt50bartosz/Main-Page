@@ -70,8 +70,10 @@ $("#cancel").click(function(){
 });
 
 
-$("#login-btn").click(function() {
-    
-    window.location.href = 'https://dt50bartosz.github.io/main-login/';
-    
+$("#login-btn").click(function(event) {
+   
+    event.preventDefault(); 
+  
+    window.location.href = "https://www.google.com";
+  
 });
