@@ -68,3 +68,9 @@ $("#register-btn").click(function(event) {
 $("#cancel").click(function(){
     $(".signup-form").hide();
 });
+
+
+$('#login-btn').click(function() {
+    
+    window.location.href = 'https://dt50bartosz.github.io/main-login/';
+});
